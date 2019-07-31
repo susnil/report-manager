@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Organizer Raportów</string>
+    <string name="header_name">Nazwa</string>
+    <string name="header_date">Data</string>
+    <string name="header_time">Godzina</string>
+    <string name="header_user">Użytkownik</string>
+    <string name="header_local">Lokal</string>
+    <string name="search_for">Wyszukiwanie dla pola %s</string>
+</resources>

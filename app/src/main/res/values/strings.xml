@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Report Manager</string>
+    <string name="header_name">Name</string>
+    <string name="header_date">Data</string>
+    <string name="header_time">Time</string>
+    <string name="header_user">User</string>
+    <string name="header_local">Local</string>
+    <string name="search_for">Search for %s</string>
+</resources>
