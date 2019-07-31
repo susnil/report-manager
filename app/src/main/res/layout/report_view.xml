@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content">
+    <TableRow
+            android:id="@+id/tableRow_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#EEEEEE"
+    >
+
+        <TextView
+                android:id="@+id/TextView_name"
+                android:text="test"
+                android:typeface="serif"
+                android:layout_weight="0.24"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"
+        ></TextView>
+
+        <TextView
+                android:id="@+id/TextView_date"
+                android:text="30-01"
+                android:typeface="serif"
+                android:layout_weight="0.24"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"
+        ></TextView>
+
+        <TextView
+                android:id="@+id/TextView_time"
+                android:text="12:00"
+                android:typeface="serif"
+                android:layout_weight="0.24"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"
+        ></TextView>
+
+        <TextView
+                android:id="@+id/TextView_user"
+                android:text="User1"
+                android:typeface="serif"
+                android:layout_weight="0.2"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"
+        ></TextView>
+
+        <TextView
+                android:id="@+id/TextView_local"
+                android:text="Łódź ul. Narutowicza 176/178 "
+                android:ellipsize="none"
+                android:typeface="serif"
+                android:layout_weight="0.2"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"
+        ></TextView>
+    </TableRow>
+</androidx.cardview.widget.CardView>
