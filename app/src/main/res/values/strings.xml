@@ -6,4 +6,9 @@
     <string name="header_user">User</string>
     <string name="header_local">Local</string>
     <string name="search_for">Search for %s</string>
+    <string name="export">export name</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+    <string name="user">user</string>
+    <string name="place">place</string>
 </resources>

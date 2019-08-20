@@ -6,4 +6,9 @@
     <string name="header_user">Użytkownik</string>
     <string name="header_local">Lokal</string>
     <string name="search_for">Wyszukiwanie dla pola %s</string>
+    <string name="export">nazwa exportu</string>
+    <string name="date">data</string>
+    <string name="time">czas</string>
+    <string name="user">użytkownik</string>
+    <string name="place">lokal</string>
 </resources>

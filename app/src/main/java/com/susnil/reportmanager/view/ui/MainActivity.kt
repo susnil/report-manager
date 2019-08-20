@@ -8,6 +8,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.susnil.reportmanager.R
@@ -19,9 +20,6 @@ import com.susnil.reportmanager.service.model.RestrictionType
 import com.susnil.reportmanager.view.adapter.ReportAdapter
 import com.susnil.reportmanager.viewmodel.ReportViewModel
 import java.util.*
-import androidx.recyclerview.widget.DividerItemDecoration
-
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -86,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                 builder.setView(input)
             }
             else -> {
-                builder.setTitle("Filtr: ${restrictionType.message}")
+                builder.setTitle("Filtr: " + getString(restrictionType.resId))
                 input = EditText(this)
                 input.inputType = InputType.TYPE_CLASS_TEXT
                 builder.setView(input)
@@ -105,7 +103,7 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(
                 applicationContext,
-                resources.getString(R.string.search_for, restrictionType.message),
+                resources.getString(R.string.search_for, getString(restrictionType.resId)),
                 Toast.LENGTH_SHORT
             ).show()
 

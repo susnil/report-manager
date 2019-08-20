@@ -1,5 +1,11 @@
 package com.susnil.reportmanager.service.model
 
-enum class RestrictionType(val message: String) {
-    TEXT_EXPORT("nazwa exportu"), DATE("data"), TIME("czas"), TEXT_USER("użytkownik"), TEXT_LOCAL("lokal")
+import com.susnil.reportmanager.R
+
+enum class RestrictionType(val resId: Int) {
+    TEXT_EXPORT(R.string.export),
+    DATE(R.string.date),
+    TIME(R.string.time),
+    TEXT_USER(R.string.user),
+    TEXT_LOCAL(R.string.place)
 }
